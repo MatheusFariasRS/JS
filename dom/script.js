@@ -19,8 +19,11 @@ card1.appendChild(paragrafo);
 card1.classList.add("super-border")
 
 const cards = document.querySelectorAll(".card");
+//const cards = document.getElementsByClassName("card");
 console.log(cards);
+
 
 Array.from(cards).map(item => {
     console.log(item.innerHTML)
 })
+    
